@@ -1,0 +1,80 @@
+/* Apply background image to the entire login page */
+.login-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100%;
+  position: relative;
+  background: url("https://t4.ftcdn.net/jpg/09/80/59/43/240_F_980594328_P8BK9sItSSEXbqFJNB6069OErghoMU5Q.jpghttps://as1.ftcdn.net/v2/jpg/05/03/35/72/1000_F_503357275_Bwyz6qjesuLyD3uGKrQrA4hniQ84SbEd.jpghttps://t3.ftcdn.net/jpg/05/09/48/32/240_F_509483285_IFljxlvdz3u9B3B2eERjcDF9igcznInb.jpghttps://t4.ftcdn.net/jpg/05/15/50/65/240_F_515506536_V0SbQVotal9XMfzjBk1KKyVufZtLzuqu.jpghttps://t4.ftcdn.net/jpg/04/21/31/15/240_F_421311510_MvPugTLp1wxn0Cba1oMW6nLqVWIW4z2H.jpghttps://t4.ftcdn.net/jpg/04/21/31/15/240_F_421311510_MvPugTLp1wxn0Cba1oMW6nLqVWIW4z2H.jpghttps://t4.ftcdn.net/jpg/05/10/86/17/240_F_510861755_iZVKqwn2wdlssAwp72UZj6A2882na4li.jpghttps://t4.ftcdn.net/jpg/05/12/20/39/240_F_512203948_2om7xUKSrBqQjUrKbAWyLPVdKs37vPL9.jpghttps://t4.ftcdn.net/jpg/05/01/75/69/240_F_501756953_u39FGwCisHOGHphO1s4xSflCIiS6aQ96.jpg") no-repeat center center/cover; /* High-quality vegetable market image */
+}
+
+/* Stylish marquee with a fresh gradient background */
+.offers-marquee {
+  background: linear-gradient(90deg, #4CAF50, #2E8B57); /* Fresh green gradient */
+  color: #fff; /* White text */
+  font-weight: bold;
+  font-size: 28px;
+   text-transform: uppercase;
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Login container with transparency effect */
+.login-container {
+  background: rgba(255, 255, 255, 0.9); /* White with transparency */
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  width: 400px;
+}
+
+/* Login title */
+.login-title {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Input fields */
+.login-input {
+  width: 100%;
+  padding: 12px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Login button */
+.login-button {
+  background-color: #28a745;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 10px;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.login-button:hover {
+  background-color: #218838;
+}
+
+/* Forgot password link */
+.forgot-password {
+  margin-top: 10px;
+}
+
+.forgot-password-link {
+  color: #007bff;
+  text-decoration: none;
+}
