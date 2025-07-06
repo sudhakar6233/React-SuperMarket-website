@@ -6,7 +6,7 @@ import a2 from './images/a2.jpg';
 import a3 from './images/a3.jpg';
 import f1 from './images/f1.jpg';
 import f2 from './images/f2.jpg';
-import f3 from './images/f3.jpg'
+import f3 from './images/f3.jpg' 
 import f4 from './images/f4.jpg';
 import f5 from './images/f5.jpg';
 import f6 from './images/f6.jpg';
