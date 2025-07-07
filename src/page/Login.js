@@ -3,10 +3,12 @@ import "./Login.css";
 const Login = () => {
   return (
     <div className="login-page">
-      {/* Marquee for vegetable offers at the top */}
-      <marquee className="offers-marquee">
-        🥦 Fresh Broccoli - 20% Off! 🍎 Apples - ₹150/kg Only! 🥕 Carrots - Buy 1kg, Get 500g Free! 🍉 Watermelon - ₹30/kg! 🍇 Grapes - 40% Off Today!
-      </marquee>
+      {/* Modern marquee for vegetable offers at the top */}
+      <div className="offers-marquee">
+        <span>
+          🥦 Fresh Broccoli - 20% Off! 🍎 Apples - ₹150/kg Only! 🥕 Carrots - Buy 1kg, Get 500g Free! 🍉 Watermelon - ₹30/kg! 🍇 Grapes - 40% Off Today!
+        </span>
+      </div>
 
       <div className="login-container">
         <h2 className="login-title">VEG MART LOGIN</h2>
